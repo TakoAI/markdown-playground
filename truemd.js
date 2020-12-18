@@ -1,6 +1,6 @@
 var mdstr = "";
 var request = new XMLHttpRequest();
-request.open('GET', '/README.md', true);
+request.open('GET', 'README.md', true);
 
 request.onload = function() {
     if (this.status >= 200 && this.status < 400) {
